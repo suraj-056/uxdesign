@@ -266,6 +266,10 @@ span{
         border-radius: 24px;
         background-color: #fafafa;
     }
+    .get p{
+            font-size: 1rem;
+            font-weight: 500;
+    }
     #hireme{
         width: 40%;
         padding: 2%;
