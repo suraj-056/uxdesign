@@ -1,0 +1,294 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.header{
+    /* background-color: #fafafa; */
+    margin: 10%;
+    
+}
+#heading{
+    font-size: 3.4rem;
+    font-weight: 700;
+}
+#suraj{
+    text-decoration: none;
+    background: -webkit-linear-gradient(#e205ff, #ff4110);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#new{
+    width: 100%;
+    /* background-color: green;  */
+    display: flex;
+    justify-content: right;
+    margin-right: 10%;
+}
+#new li{
+    margin: 0% 2.5%;
+}
+#navbar{
+    width: 80%;
+    margin-left: 10%;
+    color: #C333E7;
+}
+#logo img{
+    width: 10%;
+}
+#hireme{
+    width: 200%;
+    border-radius: 48px;
+    background: hsla(288, 79%, 55%, 1);
+
+    background: linear-gradient(45deg, hsla(288, 79%, 55%, 1) 0%, hsla(12, 100%, 53%, 1) 100%);
+    
+    background: -moz-linear-gradient(45deg, hsla(288, 79%, 55%, 1) 0%, hsla(12, 100%, 53%, 1) 100%);
+    
+    background: -webkit-linear-gradient(45deg, hsla(288, 79%, 55%, 1) 0%, hsla(12, 100%, 53%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#C333E7", endColorstr="#FF4110", GradientType=1 );;
+}
+#hireme a{
+    text-decoration: none;
+    color: #fafafa;
+    font-weight: 700;
+}
+
+.parent{
+    width: 80%;
+    height: 80vh;
+    max-height: 80vh;
+    display: flex;
+    margin: 10% 10%;
+    background-color: #fafafa;
+    border-radius: 24px;
+}
+.number1{
+    width: 50%;
+    height: 100%;
+    /* background-color: green; */
+    padding: 10% 5%;
+    float: left;
+    border-radius: 24px 0px 0px 24px;
+}
+.number1 h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.number1 p{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.number1 ul li{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+button{
+    border: none;
+    border-radius: 4%;
+    padding: 8%;
+    font-weight: 600;
+}
+.num1{
+    width: 50%;
+    height: 100vh;
+    /* background-color: red; */
+    float: right;
+    display: flex;
+    justify-content: center;
+    border-radius: 0px 24px 24px 0px;
+    overflow: hidden;
+    align-items: center;
+    
+}
+.img-one{
+    width: 100%;
+    height: 60%;
+    text-align: center;
+    /* background-color: white; */
+}
+.num1 img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 24px;
+    margin-left: 0%;
+}
+
+.get{
+    background-color: #fafafa;
+    margin: 0% 10%;
+    padding: 5%;
+    border-radius: 24px;
+}
+.get h1{
+    font-weight: 700;
+}
+.get p{
+    font-weight: 600;
+}
+span{
+    font-weight: 700;
+    text-decoration: underline;
+    color:  #C333E7;
+}
+.bottom{
+    margin-top: 20%;
+    text-align: center;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        /* background-color: green; */
+    }
+    #navbar{
+        width: 100%;
+        display: flex;
+    }
+    #btn{
+        float: right;
+    }
+    #logo{
+        width: 50%;
+    }
+    #logo img{
+        width: 30%;
+    }
+    .navbar-toggler{
+        border: none;
+    }
+
+    .header{
+        /* background-color: #fafafa; */
+        text-align: left;
+        margin: 20% 5%;
+    }
+    .header h1{
+        font-size: 1.6rem;
+        font-weight: 700;
+    }
+    .header p{
+        font-weight: 600;
+    }
+    #new{
+        width: 100%;
+        /* background-color: green;  */
+        display: flex;
+        justify-content: right;
+        /* margin-right: 5%; */
+    }
+    #new li{
+        /* margin: 0% 2.5%; */
+    }
+    .parent{
+        width: 100%;
+        height: 90vh;
+        max-height: 100vh;
+        display: flex;
+        flex-direction: column-reverse;
+        /* margin: 10% 10%; */
+        background-color: #fffafa;
+        margin: 10% 0%;
+        /* background-color: #C333E7; */
+        border-radius: 0px;
+    }
+    .number1{
+        width: 100%;
+        height: 100%;
+        /* background-color: green; */
+        /* padding: 10% 5%; */
+        /* float: left; */
+        border-radius: 24px 0px 0px 24px;
+    }
+    .number1 h1{
+        font-size: 3rem;
+        font-weight: 700;
+    }
+    .number1 p{
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    .number1 ul li{
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+    button{
+        border: none;
+        border-radius: 4%;
+        padding: 4%;
+        font-weight: 600;
+    }
+    .num1{
+        width: 100%;
+        height: 100%;
+        /* background-color: red; */
+        /* float: right; */
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        border-radius: 0px 24px 24px 0px;
+        overflow: hidden;
+        align-items: center;
+        
+    }
+    .img-one{
+        width: 80%;
+        height: 80%;
+        text-align: center;
+      
+        /* background-color: rgb(199, 21, 21); */
+    }
+    
+    .num1 img{
+        /* background-color: #C333E7; */
+        min-width: 100%;
+        min-height: 100%;
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 24px;
+        padding-top: 10%;
+    }
+    
+    .get{
+        width: 90%;
+        margin: 0% 5%;
+        padding: 5%;
+        border-radius: 24px;
+        background-color: #fafafa;
+    }
+    #hireme{
+        width: 40%;
+        padding: 2%;
+        border-radius: 48px;
+        background: hsla(288, 79%, 55%, 1);
+    
+        background: linear-gradient(45deg, hsla(288, 79%, 55%, 1) 0%, hsla(12, 100%, 53%, 1) 100%);
+        
+        background: -moz-linear-gradient(45deg, hsla(288, 79%, 55%, 1) 0%, hsla(12, 100%, 53%, 1) 100%);
+        
+        background: -webkit-linear-gradient(45deg, hsla(288, 79%, 55%, 1) 0%, hsla(12, 100%, 53%, 1) 100%);
+        
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#C333E7", endColorstr="#FF4110", GradientType=1 );;
+    }
+    #hireme a{
+        text-decoration: none;
+        color: #fafafa;
+        font-weight: 700;
+        margin: 0%;
+    }
+    span{
+        font-weight: 700;
+        text-decoration: underline;
+        color: #C333E7;
+    }
+  }
